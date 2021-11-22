@@ -288,7 +288,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/joinchat/XQU_-CI2NnY0MjRk'),
+                    InlineKeyboardButton('Updates Channel', url='https://t.me/joinchat/H2b59B1Feek5Y2Y0'),
                 ]
                 ]
             await query.message.edit(reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -312,8 +312,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/Movie_Collections_Bot/116'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/joinchat/XQU_-CI2NnY0MjRk')
+                        InlineKeyboardButton('Other Bots', url='https://t.me/Movie_Collections_Bot/1220'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/joinchat/H2b59B1Feek5Y2Y0')
                     ]
                     ]
                 
@@ -344,8 +344,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/Movie_Collections_Bot/116'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/joinchat/XQU_-CI2NnY0MjRk')
+                        InlineKeyboardButton('Other Bots', url='https://t.me/Movie_Collections_Bot/1220'),
+                        InlineKeyboardButton('Updates Channel', url='https://t.me/joinchat/H2b59B1Feek5Y2Y0')
                     ]
                     ]
                 
